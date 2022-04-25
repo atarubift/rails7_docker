@@ -1,4 +1,9 @@
 # README
 
-## 参考リンク
-[Rails 7 + MySQLの環境構築をDocker composeで作る](https://qiita.com/croquette0212/items/7b99d9339fd773ddf20b)
+## Setup
+```
+git clone this branch
+docker-compose build
+docker-compose run web rails db:create
+```
+Open localhost:3000
